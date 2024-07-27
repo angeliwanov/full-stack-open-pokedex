@@ -1,5 +1,5 @@
 #!/bin/bash
 
 echo "Build script"
-npm install
+npm install --legacy-peer-deps
 webpack --mode production
